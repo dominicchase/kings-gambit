@@ -1,0 +1,16 @@
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: black;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  min-width: 100px;
+  min-height: 100px;
+  width: 100px;
+  height: 100px;
+  background: white;
+}
